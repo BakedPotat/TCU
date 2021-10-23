@@ -170,14 +170,14 @@ function updateDisplay () {
 };
 
 // Wait for key press
-//document.onkeydown = function(event) {
+document.onkeydown = function(event) {
   // Make sure key pressed is an alpha character
-  //if (isLetter(event.key) && pause === false) {
-  //checkForLetter(event.key.toUpperCase());
-  //}
+  if (isLetter(event.key) && pause === false) {
+  checkForLetter(event.key.toUpperCase());
+  }
   // Turn off blinking "...get started" message on keypress
-  //document.getElementById('welcome').className = 'noBlink';
-//};
+  document.getElementById('welcome').className = 'noBlink';
+};
 
 // Check if key pressed is between A-Z or a-z
 var isLetter = function(ch){
