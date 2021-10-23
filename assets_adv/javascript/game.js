@@ -1,6 +1,7 @@
 var possibleWords = [
   "BATERIA", 
   "PUNTOS DE RECICLAJE"
+  //"TEST"";
   //"ROCKY MOUNTAIN", 
   //"ZION", 
   // "YELLOWSTONE",
