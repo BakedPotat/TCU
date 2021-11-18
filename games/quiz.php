@@ -1,5 +1,4 @@
 <!--code by webdevtrick (webdevtrick.com) -->
-<!DOCTYPE html>
 <head>
  <meta charset=UTF-8" />
  
@@ -124,26 +123,26 @@
                 
                 <li>
                 
-                    <h3>Webdevtrick Is For</h3>
+                    <h3>En los vertederos de basura existen problemas al gestionar la basura electrónica, esto provoca que…</h3>
                     
                     <div>
                         <input type="radio" checked=":" name="question-5-answers" id="question-5-answers-A" value="A" />
-                        <label for="question-5-answers-A">A) Web Designer</label>
+                        <label for="question-5-answers-A">A) Se acumulan desechos electrónicos en dichos verteredos</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
-                        <label for="question-5-answers-B">B) Web Developer</label>
+                        <label for="question-5-answers-B">B) Se abren nuevos trabajos</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
-                        <label for="question-5-answers-C">C) Graphic Designer</label>
+                        <label for="question-5-answers-C">C) Se genera menos basura</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
-                        <label for="question-5-answers-D">D) All Above These</label>
+                        <label for="question-5-answers-D">D) Todas las anteriores</label>
                     </div>
                 
                 </li>

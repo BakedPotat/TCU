@@ -65,8 +65,16 @@
                 echo "<br>";
                 echo"<div style ='font:20px Arial,tahoma,sans-serif;color:red'> Elegiste una respuesta incorrecta, la respuesta correcta es: Asma";
             } 
-            if ($answer5 == "D") { $totalCorrect++; }
-            
+            if ($answer5 == "A") { $totalCorrect++; 
+                echo " <div style ='font:20px Arial,tahoma,sans-serif;color:black'> 5. En los vertederos de basura existen problemas al gestionar la basura electrónica, esto provoca que…";
+                echo "<br>";
+                echo"<div style ='font:20px Arial,tahoma,sans-serif;color:green'> Elegiste la respuesta correcta: Se acumulan desechos electrónicos en dichos verteredos";
+            }
+            if ($answer5 != "A") {
+                echo " <div style ='font:20px Arial,tahoma,sans-serif; color:black'> 5. En los vertederos de basura existen problemas al gestionar la basura electrónica, esto provoca que…";
+                echo "<br>";
+                echo"<div style ='font:20px Arial,tahoma,sans-serif;color:red'> Elegiste una respuesta incorrecta, la respuesta correcta es: Se acumulan desechos electrónicos en dichos verteredos";
+            } 
             echo "<div style ='font:20px Arial,tahoma,sans-serif; color:black' id='results'>$totalCorrect / 5 correctas</div>";
             
         ?>
