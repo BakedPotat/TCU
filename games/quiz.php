@@ -1,4 +1,5 @@
 <!--code by webdevtrick (webdevtrick.com) -->
+<!DOCTYPE html>
 <head>
  <meta charset=UTF-8" />
  
@@ -71,7 +72,7 @@
                 
                 <li>
                 
-                    <h3>¿Cuál se considera como uno de los materiales más contaminantes provenientes de desechos electrónicos?</h3>
+                    <h3>¿Cuál es uno de los materiales más contaminantes provenientes de desechos electrónicos?</h3>
                     
                     <div>
                         <input type="radio" checked=":" name="question-3-answers" id="question-3-answers-A" value="A" />
