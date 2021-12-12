@@ -621,8 +621,8 @@ input[type='checkbox'] {
 /*     Details     */
 /*******************/
 .split .area-1 {
-	height: 430px;
-	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/residuos-basura.jpg') center center no-repeat;
+	height: 230px;
+	/* background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/residuos-basura.jpg') center center no-repeat; */
 	background-size: cover;
 }
 
@@ -654,6 +654,7 @@ input[type='checkbox'] {
 .basic-3 {
 	padding-top: 7.75rem;
 	padding-bottom: 1rem;
+	margin-top: 25px;
 }
 
 .basic-3 .h2-heading {
@@ -1383,4 +1384,10 @@ a:hover.back-to-top {
 #btn-mas:checked~.btn-mas .icon-chat{
 	/* transform: rotate(137deg); */
 	font-size: 25px;
+}
+
+.cards1{
+	margin-bottom: 20px;
+	
+	height: 150px;
 }
