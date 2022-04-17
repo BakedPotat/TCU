@@ -26,7 +26,7 @@
         
             $totalCorrect = 0;
             
-            if ($answer1 == "C") { $totalCorrect == 20; 
+            if ($answer1 == "C") { $totalCorrect = $totalCorrect + 20; 
                 echo " <div style ='font:20px Arial,tahoma,sans-serif;color:black'> 1. ¿En dónde suelen terminar los desechos electrónicos?";
                 echo "<br>";
                 echo"<div style ='font:20px Arial,tahoma,sans-serif;color:green'> Elegiste la respuesta correcta: Ríos";
@@ -83,7 +83,7 @@
             echo '<div class="progress">
             <div class="progress-bar progress-bar-striped active" role="progressbar"
             aria-valuenow="40" aria-valuemin="0" aria-valuemax="5" style="width:'.$totalCorrect.'%">
-             '.$totalCorrect.'%
+             ¡ '.$totalCorrect.'% de las respuestas correctas !
             </div>
           </div>'
 
