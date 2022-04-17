@@ -3,6 +3,7 @@
  
 <head>
  <meta charset=UTF-8" />
+ <?php include_once 'phpnavbar.php' ?>
  
  <title>Quiz - Resultado</title>
  
@@ -25,7 +26,7 @@
         
             $totalCorrect = 0;
             
-            if ($answer1 == "C") { $totalCorrect++; 
+            if ($answer1 == "C") { $totalCorrect == 20; 
                 echo " <div style ='font:20px Arial,tahoma,sans-serif;color:black'> 1. ¿En dónde suelen terminar los desechos electrónicos?";
                 echo "<br>";
                 echo"<div style ='font:20px Arial,tahoma,sans-serif;color:green'> Elegiste la respuesta correcta: Ríos";
@@ -35,7 +36,7 @@
                 echo "<br>";
                 echo"<div style ='font:20px Arial,tahoma,sans-serif;color:red'> Elegiste una respuesta incorrecta, la respuesta correcta es: Ríos";
             } 
-            if ($answer2 == "B") { $totalCorrect++; 
+            if ($answer2 == "B") { $totalCorrect = $totalCorrect + 20; 
                 echo " <div style ='font:20px Arial,tahoma,sans-serif;color:black'> 2. ¿Cuál es una de las consecuencias de los desechos electrónicos?";
                 echo "<br>";
                 echo"<div style ='font:20px Arial,tahoma,sans-serif;color:green'> Elegiste la respuesta correcta: Contaminación en tierra, agua y aire";
@@ -45,7 +46,7 @@
                 echo "<br>";
                 echo"<div style ='font:20px Arial,tahoma,sans-serif;color:red'> Elegiste una respuesta incorrecta, la respuesta correcta es: Contaminación en tierra, agua y aire";
             } 
-            if ($answer3 == "D") { $totalCorrect++; 
+            if ($answer3 == "D") { $totalCorrect = $totalCorrect + 20; 
                 echo " <div style ='font:20px Arial,tahoma,sans-serif;color:black'> 3. ¿Cuál se considera como uno de los materiales más contaminantes provenientes de desechos electrónicos?";
                 echo "<br>";
                 echo"<div style ='font:20px Arial,tahoma,sans-serif;color:green'> Elegiste la respuesta correcta: Mercurio";
@@ -55,7 +56,7 @@
                 echo "<br>";
                 echo"<div style ='font:20px Arial,tahoma,sans-serif;color:red'> Elegiste una respuesta incorrecta, la respuesta correcta es: Mercurio";
             } 
-            if ($answer4 == "B") { $totalCorrect++; 
+            if ($answer4 == "B") { $totalCorrect = $totalCorrect + 20; 
                 echo " <div style ='font:20px Arial,tahoma,sans-serif;color:black'> 4. ¿Cuál enfermedad se suele asociar con los desechos electrónicos?";
                 echo "<br>";
                 echo"<div style ='font:20px Arial,tahoma,sans-serif;color:green'> Elegiste la respuesta correcta: Asma";
@@ -65,22 +66,26 @@
                 echo "<br>";
                 echo"<div style ='font:20px Arial,tahoma,sans-serif;color:red'> Elegiste una respuesta incorrecta, la respuesta correcta es: Asma";
             } 
-            if ($answer5 == "A") { $totalCorrect++; 
+            if ($answer5 == "A") { $totalCorrect = $totalCorrect + 20; 
                 echo " <div style ='font:20px Arial,tahoma,sans-serif;color:black'> 5. En los vertederos de basura existen problemas al gestionar la basura electrónica, esto provoca que…";
                 echo "<br>";
                 echo"<div style ='font:20px Arial,tahoma,sans-serif;color:green'> Elegiste la respuesta correcta: Se acumulan desechos electrónicos en dichos verteredos";
+                echo "<br>";
             }
             if ($answer5 != "A") {
                 echo " <div style ='font:20px Arial,tahoma,sans-serif; color:black'> 5. En los vertederos de basura existen problemas al gestionar la basura electrónica, esto provoca que…";
                 echo "<br>";
                 echo"<div style ='font:20px Arial,tahoma,sans-serif;color:red'> Elegiste una respuesta incorrecta, la respuesta correcta es: Se acumulan desechos electrónicos en dichos verteredos";
+                echo "<br>";
             } 
-            echo "<div style ='font:20px Arial,tahoma,sans-serif; color:black' id='results'>$totalCorrect / 5 correctas</div>";
-            
+            /**echo "<div style ='font:20px Arial,tahoma,sans-serif; color:black' id='results'>$totalCorrect / 5 correctas</div>";**/
+            echo "<br>";
+            echo '<div class="progress">
+            <div class="progress-bar progress-bar-striped active" role="progressbar"
+            aria-valuenow="40" aria-valuemin="0" aria-valuemax="5" style="width:'.$totalCorrect.'%">
+             '.$totalCorrect.'%
+            </div>
+          </div>'
+
+           
         ?>
- 
- </div>
- 
-</body>
- 
-</html>

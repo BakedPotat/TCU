@@ -1,3 +1,10 @@
+<head>
+ <meta charset=UTF-8" />
+ <?php include_once 'phpnavbar.php' ?>
+ <title>Palabras Desordenadas</title>
+ <link rel="stylesheet" type="text/css" href="style-quiz.css" />
+</head>
+
 <?php
 include_once("guessing_game_style.inc");
 $ArrayWords = array("bateria", "puntos de reciclaje");

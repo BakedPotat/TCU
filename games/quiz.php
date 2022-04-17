@@ -1,7 +1,7 @@
 <!--code by webdevtrick (webdevtrick.com) -->
 <head>
  <meta charset=UTF-8" />
- 
+ <?php include_once 'phpnavbar.php' ?>
  <title>Quiz - Desechos electronicos</title>
  <link rel="stylesheet" type="text/css" href="style-quiz.css" />
  
@@ -154,7 +154,7 @@
  </form>
  
  </div>
- 
+
  
 </body>
  
