@@ -13,7 +13,7 @@
 <nav class="navbar navbar-inverse sticky-top "> 
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="../index.html"><img style="width: 40px; height: 20px;" src="../images/Logotipo TCU blanco.png" alt="alternative"></a>
+      <a class="navbar-brand" href="../index.html"><img style="width: 40px; height: 20px;" src="images/Logotipo TCU blanco.png" alt="alternative"></a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="../index.html">Volver a inicio</a></li>

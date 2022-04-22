@@ -8,8 +8,8 @@
 <?php
 include_once("guessing_game_style.inc");
 $ArrayWords = array("bateria", "puntos de reciclaje");
-$ArrayClues = array("Es un componente muy contaminante, ya que suele contener litio", "puntos de reciclaje");
-$ArrayPics = array("img/bateria_litio.jpg", "img/p_re.jpg", "img/game_over.jpg");
+$ArrayClues = array("Es un componente muy contaminante, ya que suele contener litio", "Un lugar en donde reciclar nuestras cosas");
+$ArrayPics = array("img\dead-battery-gf88646075_1280.png", "img\park-gf6d309273_1920.jpg", "img/game_over.jpg" );
 
 
 

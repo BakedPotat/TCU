@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sopa de letras</title>
     <link rel="stylesheet" type="text/css" href="wordfind.css">
+    <?php include_once 'phpnavbar.php' ?>
 </head>
 <body>
     <h1>Sopa de letras - La basura electrónica</h1>
