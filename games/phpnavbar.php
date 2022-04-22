@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Aprende Jugando</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -13,7 +13,7 @@
 <nav class="navbar navbar-inverse sticky-top "> 
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="../index.html">¡Reciclemos!</a>
+      <a class="navbar-brand" href="../index.html"><img style="width: 40px; height: 20px;" src="../images/Logotipo TCU blanco.png" alt="alternative"></a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="../index.html">Volver a inicio</a></li>
